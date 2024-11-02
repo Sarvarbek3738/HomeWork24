@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Crimson Pro";
+  transition: all 0.5s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container1 {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header nav .container {
+  text-align: center;
+}
+header nav .container img {
+  padding: 20px 0px;
+}
+header .hero {
+  background-image: url(../imgs/img1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header .hero .container {
+  text-align: center;
+}
+header .hero .container h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 400;
+  padding-top: 100px;
+  padding-bottom: 370px;
+}
+header .hero .container h1 span {
+  color: #E67136;
+}
+header .hero .container h1 button {
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: #E67136;
+  border: none;
+  color: white;
+  box-shadow: -20px 15px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
+}
+header .hero .container h1 button:hover {
+  background-color: #E45510;
+}
+
+main .section1 {
+  background-color: #F5F4F4;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .section1 .box1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .section1 .box1 .box1-1 {
+  width: 550px;
+  text-align: center;
+  padding-top: 100px;
+}
+main .section1 .box1 .box1-1 h1 {
+  color: #E67136;
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+main .section1 .box1 .box1-1 h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+main .section1 .box1 .box1-1 p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+main .section1 .box1 .box1-1 button {
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: #E67136;
+  border: none;
+  color: white;
+  box-shadow: -20px 15px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
+}
+main .section1 .box1 .box1-1 button:hover {
+  background-color: #E45510;
+}
+main .section2 {
+  background-color: #F5F4F4;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .section2 .box2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .section2 .box2 .box2-1 {
+  width: 550px;
+  text-align: center;
+  padding-top: 70px;
+}
+main .section2 .box2 .box2-1 h1 {
+  color: #E67136;
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+main .section2 .box2 .box2-1 h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+main .section2 .box2 .box2-1 p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+main .section2 .box2 .box2-1 button {
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: #E67136;
+  border: none;
+  color: white;
+  box-shadow: -20px 15px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
+}
+main .section2 .box2 .box2-1 button:hover {
+  background-color: #E45510;
+}
+main .section3 {
+  background-color: #F5F4F4;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .section3 .box3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .section3 .box3 .box3-1 {
+  width: 550px;
+  text-align: center;
+  padding-top: 100px;
+}
+main .section3 .box3 .box3-1 h1 {
+  color: #E67136;
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+main .section3 .box3 .box3-1 h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+main .section3 .box3 .box3-1 p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+main .section3 .box3 .box3-1 button {
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: #E67136;
+  border: none;
+  color: white;
+  box-shadow: -20px 15px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
+}
+main .section3 .box3 .box3-1 button:hover {
+  background-color: #E45510;
+}
+main .section4 .container {
+  padding-bottom: 100px;
+}
+main .section4 .container h2 {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 45px;
+  color: #E67136;
+  font-weight: 400;
+}
+main .section4 .container .box4 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .section4 .container .box4 .box4-1 {
+  width: 280px;
+  text-align: center;
+}
+main .section4 .container .box4 .box4-1 h1 {
+  padding: 10px 0px;
+}
+main .section4 .container .box4 .box4-1 p {
+  padding-bottom: 10px;
+}
+main .section5 {
+  background-color: #F5F4F4;
+  padding: 50px 0px;
+}
+main .section5 .container {
+  text-align: center;
+}
+main .section5 .container .box5 .box5-1 h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+main .section5 .container .box5 .box5-1 h1 span {
+  color: #E67136;
+  font-size: 80px;
+}
+main .section5 .container .box5 .box5-1 h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+main .section5 .container .box5 .box5-1 p {
+  padding-bottom: 60px;
+  font-weight: 400;
+}
+main .section5 .container .box5 .box5-1 button {
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: #E67136;
+  border: none;
+  color: white;
+  box-shadow: -20px 15px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
+}
+main .section5 .container .box5 .box5-1 button:hover {
+  background-color: #E45510;
+}
+main .section6 {
+  background: rgba(217, 217, 217, 0.2);
+  padding-bottom: 70px;
+}
+main .section6 .container1 h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #E67136;
+  text-align: center;
+  padding: 50px 0px;
+}
+main .section6 .container1 .box6 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+main .section6 .container1 .box6 .box6-1 {
+  width: 250px;
+}
+main .section6 .container1 .box6 .box6-1 img {
+  width: 100%;
+  height: 170px;
+}
+main .section7 {
+  padding-bottom: 400px;
+}
+main .section7 .container h1 {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  color: #E67136;
+  padding: 50px 0px;
+}
+main .section7 .container .box7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section7 .container .box7 .box7-1 {
+  width: 270px;
+  text-align: center;
+  height: 2px;
+}
+main .section7 .container .box7 .box7-1 h2 {
+  font-size: 24px;
+  padding: 20px 0px;
+}
+main .section7 .container .box7 .box7-1 p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+main .section7 .container .box7 .box7-1 img {
+  width: 90%;
+}
+main .section8 {
+  padding-bottom: 50px;
+}
+main .section8 .container {
+  text-align: center;
+}
+main .section8 .container h3 {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  padding: 50px 0px;
+}
+main .section8 .container button {
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: #E67136;
+  border: none;
+  color: white;
+  box-shadow: -20px 15px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
+}
+main .section8 .container button:hover {
+  background-color: #E45510;
+}
+
+footer {
+  background: rgba(36, 68, 57, 0.8);
+  padding: 30px;
+}
+footer .container {
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px 30px;
+}
+footer .container .box9 .box9-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+footer .container .box9 .box9-1 .box9-2 h4 {
+  color: #E67136;
+  padding-bottom: 15px;
+}
+footer .container .box9 .box9-1 .box9-2 i {
+  cursor: pointer;
+  margin-bottom: 6px;
+  line-height: 20px;
+}
+footer .container .box9 .box9-3 {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .container .box9 .box9-3 .box9-4 {
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+footer .container .box9 .box9-3 .box9-5 {
+  padding-right: 30px;
+}
+footer .container .box9 .box9-3 .box9-5 i {
+  cursor: pointer;
+  margin-left: 15px;
+}
+footer .container .box9 .box9-6 {
+  text-align: center;
+  padding: 20px 0px;
+}
+footer .container .box9 .box9-6 p {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
