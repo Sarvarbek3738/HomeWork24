@@ -557,22 +557,22 @@ footer .container .box9 .box9-6 p {
     align-items: center;
   }
 }
-footer {
+.footer1 {
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
-footer .container .box9 .box9-1 {
+.footer1 .container .box9 .box9-1 {
   flex-direction: column;
 }
-footer .container .box9 .box9-1 .box9-7 img {
+.footer1 .container .box9 .box9-1 .box9-7 img {
   width: 100%;
 }
-footer .container .box9 .box9-1 .box9-2 h4 {
+.footer1 .container .box9 .box9-1 .box9-2 h4 {
   text-align: center;
 }
-footer .container .box9 .box9-3 {
+.footer1 .container .box9 .box9-3 {
   flex-direction: column;
 }
-footer .container .box9 .box9-3 .box9-4 {
+.footer1 .container .box9 .box9-3 .box9-4 {
   padding-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */

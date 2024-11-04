@@ -409,7 +409,7 @@ main{
    
     
 }
-footer{
+.footer1{
     background: #244439CC;
     padding: 30px;
     .container{
@@ -589,70 +589,69 @@ main{
            }
         }
     }
-}
-.section4{
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    .container{
-        h2{
-            font-size: 35px;
-        }
-        .box4{
-            flex-direction: column-reverse;
-            align-items: center;
+    .section4{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        .container{
+            h2{
+                font-size: 35px;
+            }
+            .box4{
+                flex-direction: column-reverse;
+                align-items: center;
+            }
         }
     }
-}
-.section5{
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    .container{
-        .box5{
-            .box5-1{
-
-                h1{
-                    font-size: 30px;
-                    padding-bottom: 10px;
-                    span{
-                        color: #E67136;
-                        font-size: 00px;
+    .section5{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        .container{
+            .box5{
+                .box5-1{
+    
+                    h1{
+                        font-size: 30px;
+                        padding-bottom: 10px;
+                        span{
+                            color: #E67136;
+                            font-size: 00px;
+                        }
                     }
-                }
-                h2{
-                    font-size: 5px;
+                    h2{
+                        font-size: 5px;
+                    }
                 }
             }
         }
     }
-}
-.section6{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    .container1{
-        .box6{
-         
-            flex-direction: column-reverse;
-            align-items: center;
+    .section6{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        .container1{
+            .box6{
+             
+                flex-direction: column-reverse;
+                align-items: center;
+            }
         }
     }
-}
-.section7{
-
-    .container{
-    display: none;
-
-        .box7{
-            flex-direction: column-reverse;
-            align-items: center;
+    .section7{
+    
+        .container{
+        display: none;
+    
+            .box7{
+                flex-direction: column-reverse;
+                align-items: center;
+            }
         }
-    }
 }
+
 }
-footer{
+.footer1{
     padding-left: 10px !important;
     padding-right: 10px !important;
     .container{
-        
         .box9{
             .box9-1{
                 flex-direction: column;
@@ -675,4 +674,6 @@ footer{
             }
         }
     }
+}
+
 }
